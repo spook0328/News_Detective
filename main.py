@@ -5,4 +5,4 @@ import jieba
 import nltk
 from collections import Counter
 
-url
+fetch 
