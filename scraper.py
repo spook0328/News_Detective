@@ -1,1 +1,1 @@
-#scrape the key words from the web
+#負責從新聞網站取得標題、網址及其他資訊。第一階段先用假資料測試，之後再接真實新聞來源。
