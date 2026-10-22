@@ -4,7 +4,7 @@ import tkinter as tk
 window = tk.Tk()
 # Title
 window.title("GUI UI practice ")
-# 設定視窗大小
+# 設定視窗大小(Widthxheight)
 window.geometry("600x400")
 
 
@@ -28,6 +28,7 @@ entry.pack()
 def search():
     keyword = entry.get()
     result_labbel.config(text=f"輸入的關鍵字是{keyword}")
+    print(f"輸入的關鍵字是{keyword}")
 
 #Button
 button = tk.Button(
@@ -40,8 +41,9 @@ button.pack(pady=10)
 #result
 result_labbel = tk.Label(
     window,
-    text = "輸入的keywords顯示"
+    text = "輸入的keywords會顯示在這"
 )
 result_labbel.pack(pady=10)
+
 #顯示視窗並等待使用者操作
 window.mainloop()

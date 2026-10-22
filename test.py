@@ -1,4 +1,4 @@
-#測試邏輯部分，跟熟習
+#測試邏輯部分，跟熟習python 判斷 if, if-else, for, function, print
 news = [
     "AI 技術正在改變科技產業",
     "台灣股市今日上漲",
